@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    
+    background-color: rgb(235, 235, 235);
+}
+
+.bodyy{
+    margin: 1% 4%;
+}
+
+hr{
+    opacity: 0.5;
+}
+
+.sidepro{
+    width: 30%;
+    background-color: white;
+    margin: 1%;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imgg{
+    width: 100%;
+    position: relative;
+}
+
+.propic{
+    width: 100%;
+}
+
+.imgtext{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    background: none;
+}
+   
+
+.infoo p{
+    padding: 6px;
+}
+
+.infoo i{
+    padding: 10px;
+    color: #f44336;
+}
+
+.infoo a{
+    text-decoration: none;
+    color: black;
+}
+
+.skills{
+    padding: 10px;
+    font-size: 16px;
+}
+
+.skills h1{
+    color: #f44336;
+}
+.skills h4{
+    color: rgb(101, 101, 101);
+}
+
+.skills h1, .skills h4{
+    padding: 10px;
+}
+
+.html{
+    margin: 5px 10px;
+    height: 20px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+}
+.htmlp{
+    height: 20px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: #f44336;
+    color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+.css{
+    margin: 5px 10px;
+    height: 20px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+}
+.cssp{
+    height: 20px;
+    width: 60%;
+    border-radius: 10px;
+    background-color: #f44336;
+    color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+.office{
+    margin: 5px 10px;
+    height: 20px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+}
+.officep{
+    height: 20px;
+    width: 70%;
+    border-radius: 10px;
+    background-color: #f44336;
+    color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+.adobe{
+    margin: 5px 10px;
+    height: 20px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+}
+.adobep{
+    height: 20px;
+    width: 40%;
+    border-radius: 10px;
+    background-color: #f44336;
+    color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+.vid{
+    margin: 5px 10px;
+    height: 20px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+}
+.vidp{
+    height: 20px;
+    width: 60%;
+    border-radius: 10px;
+    background-color: #f44336;
+    color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+.education{
+    width: 65%;
+    height: 100%;
+    margin: 1%;
+    padding: 40px;
+    background-color: white;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.education h1{
+    color: #f44336;
+    font-size: 36px;
+    padding: 0 0 20px 0;
+}
+
+.education h4, .education p{
+    padding: 0px 10px;
+    font-size: 16px;
+}
+
+.education i{
+    padding: 20px;
+}
+
+.education h4+p{
+    color: #f44336;
+}
+
+.info{
+    width: 65%;
+    height: 100%;
+    margin: 1%;
+    padding: 40px;
+    background-color: white;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.info h1{
+    color: #f44336;
+    font-size: 36px;
+    padding: 0 0 20px 0;
+}
+
+td{
+    padding: 20px;
+}
+
+.exp{
+    width: 65%;
+    height: 100%;
+    margin: 1%;
+    padding: 40px;
+    background-color: white;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.exp h1{
+    color: #f44336;
+    font-size: 36px;
+    padding: 0 0 20px 0;
+}
+
+.exp h4{
+    padding: 0px 20px;
+    font-size: 16px;
+}
+
+footer{
+    clear: both;
+    background-color: #f44336;
+    color: whitesmoke;
+    text-align: center;
+}
+
+footer a{
+    padding: 6px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+footer p{
+    padding: 40px 0 20px 0;
+}
+
+footer div{
+    padding: 40px 0 10px 0;
+    font-size: 12px;
+}
+
+footer a:hover{
+    color: #f1877f;
+}
+
+
+
+@media all and (max-width: 600px) {
+    body{
+        display: block;
+    }
+    .sidepro{
+        width: 98%;
+        margin: 30px 0;
+        float: none;
+        font-size: 12px;
+    }
+    .education{
+        width: 98%;
+        margin: 30px 0;
+        float: none;
+        font-size: 12px;
+    }
+    .info{
+        width: 98%;
+        margin: 30px 0;
+        float: none;
+        font-size: 12px;
+    }
+    td{
+        padding: 6px;
+    }
+    .exp{
+        width: 98%;
+        margin: 30px 0;
+        float: none;
+        font-size: 12px;
+    }
+}
+ 
+
+@media all and (min-width: 601px) and (max-width: 900px) {
+    .imgtext{
+        font-size: 15px;
+        left: 7.5px;
+        bottom: 7.5px;
+    }
+    .infoo{
+        font-size: 6px;
+    }
+    .infoo p{
+        padding: 2.25px;
+    }
+    .infoo i{
+        padding: 3.75px;
+    }
+    .skills{
+        font-size: 6px;
+        padding: 3.75px;
+    }
+    .skills h1, .skills h4{
+        padding: 3.75px;
+    }
+    .html, .htmlp, .css, .cssp, .office, .officep, .adobe, .adobep, .vid, .vidp{
+        height: 7.5px;
+    }
+    .education{
+        padding: 15px;
+    }
+    
+    .education h1{
+        font-size: 13.5px;
+        padding: 0 0 8px 0;
+    }
+    
+    .education h4, .education p{
+        padding: 0px 3.75px;
+        font-size: 6px;
+    }
+    
+    .education i{
+        padding: 7.5px;
+    }
+    .info{
+        padding: 15px;
+    }
+    .info h1{
+        font-size: 13.5px;
+        padding: 0 0 8px 0;
+    }
+    td{
+        font-size: 6px;
+        padding: 8px;
+    }
+    .exp{
+        padding: 15px;
+    }
+    .exp h1{
+        font-size: 13.5px;
+        padding: 0 0 8px 0;
+    }
+    .exp h4{
+        padding: 0px 8px;
+        font-size: 6px;
+    }
+    footer a{
+        padding: 2.25px;
+        font-size: 7.5px;
+    }
+    footer p{
+        padding: 15px 0 7.5px 0;
+        font-size: 6px;
+    }
+    footer div{
+        padding: 15px 0 3.75px 0;
+        font-size: 4.75px;
+    }
+    
+}
+
+@media all and (min-width: 901px) and (max-width: 1240px) {
+    .imgtext{
+        font-size: 18px;
+        left: 9px;
+        bottom: 9px;
+    }
+    .infoo{
+        font-size: 9px;
+    }
+    .infoo p{
+        padding: 3px;
+    }
+    .infoo i{
+        padding: 5px;
+    }
+    .skills{
+        font-size: 9px;
+        padding: 5px;
+    }
+    .skills h1, .skills h4{
+        padding: 5px;
+    }
+    .html, .htmlp, .css, .cssp, .office, .officep, .adobe, .adobep, .vid, .vidp{
+        height: 11px;
+    }
+    .education{
+        padding: 22px;
+    }
+    
+    .education h1{
+        font-size: 19px;
+        padding: 0 0 11px 0;
+    }
+    
+    .education h4, .education p{
+        padding: 0px 5px;
+        font-size: 7.5px;
+    }
+    
+    .education i{
+        padding: 11px;
+    }
+    .info{
+        padding: 22px;
+    }
+    .info h1{
+        font-size: 19px;
+        padding: 0 0 11px 0;
+    }
+    td{
+        font-size: 7.5px;
+        padding: 11px;
+    }
+    .exp{
+        padding: 22px;
+    }
+    .exp h1{
+        font-size: 19px;
+        padding: 0 0 11px 0;
+    }
+    .exp h4{
+        padding: 0px 11px;
+        font-size: 7.5px;
+    }
+    footer a{
+        padding: 3.25px;
+        font-size: 11px;
+    }
+    footer p{
+        padding: 21px 0 11px 0;
+        font-size: 8px;
+    }
+    footer div{
+        padding: 21px 0 5.25px 0;
+        font-size: 6.25px;
+    }
+}
+
+@media all and (min-width: 1241px) and (max-width: 1450px) {
+    .imgtext{
+        font-size: 30px;
+        left: 15px;
+        bottom: 15px;
+    }
+    .infoo{
+        font-size: 12px;
+    }
+    .infoo p{
+        padding: 4.5px;
+    }
+    .infoo i{
+        padding: 7.5px;
+    }
+    .skills{
+        font-size: 12px;
+        padding: 7.5px;
+    }
+    .skills h1, .skills h4{
+        padding: 7.5px;
+    }
+    .html, .htmlp, .css, .cssp, .office, .officep, .adobe, .adobep, .vid, .vidp{
+        height: 15px;
+    }
+    .education{
+        padding: 30px;
+    }
+    
+    .education h1{
+        font-size: 30px;
+        padding: 0 0 16px 0;
+    }
+    
+    .education h4, .education p{
+        padding: 0px 7.5px;
+        font-size: 14px;
+    }
+    
+    .education i{
+        padding: 15px;
+    }
+    .info{
+        padding: 30px;
+    }
+    .info h1{
+        font-size: 30px;
+        padding: 0 0 16px 0;
+    }
+    td{
+        font-size: 14px;
+        padding: 16px;
+    }
+    .exp{
+        padding: 30px;
+    }
+    .exp h1{
+        font-size: 27px;
+        padding: 0 0 16px 0;
+    }
+    .exp h4{
+        padding: 0px 16px;
+        font-size: 12px;
+    }
+    footer a{
+        padding: 4.5px;
+        font-size: 15px;
+    }
+    footer p{
+        padding: 30px 0 15px 0;
+        font-size: 12px;
+    }
+    footer div{
+        padding: 30px 0 7.5px 0;
+        font-size: 9.5px;
+    }
+}
+/* 
+@media all and (min-width: 1451px){
+    .imgtext{
+        font-size: 40px;
+        left: 20px;
+        bottom: 20px;
+    }
+    .infoo{
+        font-size: 16px;
+    }
+    .infoo p{
+        padding: 6px;
+    }
+    .infoo i{
+        padding: 10px;
+    }
+    .skills{
+        font-size: 16px;
+        padding: 10px;
+    }
+    .skills h1, .skills h4{
+        padding: 10px;
+    }
+    .html, .htmlp, .css, .cssp, .office, .officep, .adobe, .adobep, .vid, .vidp{
+        height: 20px;
+    }
+    .education{
+        padding: 40px;
+    }
+    
+    .education h1{
+        font-size: 36px;
+        padding: 0 0 20px 0;
+    }
+    
+    .education h4, .education p{
+        padding: 0px 10px;
+        font-size: 16px;
+    }
+    
+    .education i{
+        padding: 20;
+    }
+} */
