@@ -79,6 +79,10 @@ li{
     position: relative;
 }
 
+.section-2 h1{
+    font-size: 2rem;
+}
+
 .photo-grid{
     display: grid;
     width: 100%;
