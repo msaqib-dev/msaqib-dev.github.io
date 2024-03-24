@@ -1,0 +1,81 @@
+
+@media screen and (min-width:520px) and (max-width:720px){
+    
+    .navbar li{
+        list-style: none;
+        margin: 0 6px;
+        font-size: 0.7rem;
+    }
+
+    .mheading{
+        font-size: 1.4rem;
+    }
+
+    .main-img{
+        opacity: 0.5;
+    }
+
+    .section-1{
+        width: 100%;
+    }
+
+    .top-left{
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .deal{
+        padding: 0;
+    }
+
+    .section-2{
+        width: 100%;
+        padding: 0;
+    }
+
+    .section-3{
+        width: 100%;
+        padding: 0;
+    }
+
+    .pboxes{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pboxes h1{
+        font-size: 1rem;
+    }
+
+    .section-3 li{
+        font-size: 0.5rem;
+    }
+
+    .section-3 .btn{
+        font-size: 0.5rem;
+    }
+
+    .section-4{
+        padding: 0;
+    }
+
+    .map{
+        height: 80%;
+    }
+    
+    .address{
+        height: 80%;
+    }
+
+    .address p{
+        font-size: 1.3rem;
+        padding: 0 4rem;
+    }
+    
+    footer p{
+        font-size: 0.7rem;
+    }
+    
+}
